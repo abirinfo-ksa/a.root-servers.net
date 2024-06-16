@@ -1,0 +1,9 @@
+request("POST /repos/{owner}/{repo}/issues/{number}/labels", {
+  mediaType: {
+    previews: ["symmetra"],
+  },
+  owner: "octokit",
+  repo: "request.js",
+  number: 1,
+  labels: ["🐛 bug"],
+});
